@@ -42,12 +42,9 @@ logo {
 color: red;
 }
 
-h2~ul>li>a {
+#contact ~ ul a{
   color: red;
-} 
-
-
-
+}
 
 footer>div:nth-child(1) {
   background-color: pink;
