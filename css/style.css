@@ -1,4 +1,66 @@
 main,
 footer {
   display: flex;
+  background-color: cyan;
+  
+}
+
+.logo {
+  text-align: center;
+  
+}
+
+.container,
+logo {
+  background-color: #0a2351;
+}
+
+.sidebar {
+  background-color: yellow;
+}
+
+.sidebar > h3 {
+  color: blue;
+}
+
+.content>h1+img {
+ width: 100%;
+}
+
+
+#about + p {
+  background-color: black;
+  color: white;
+}
+
+#services + p {
+  background-color: green;
+  color: white;
+}
+
+#services + p + ul > li:nth-child(even) {
+color: red;
+}
+
+h2~ul>li>a {
+  color: red;
+} 
+
+
+
+
+footer>div:nth-child(1) {
+  background-color: pink;
+}
+
+footer>div:nth-child(2) {
+  background-color: brown;
+}
+
+footer>div:nth-child(3) {
+  background-color: gray;
+}
+
+#services + p +ul > li {
+  list-style-type: circle; ;
 }
